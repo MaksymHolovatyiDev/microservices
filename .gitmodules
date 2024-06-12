@@ -1,0 +1,6 @@
+[submodule "news-service"]
+    path = ./news-service
+    url = https://github.com/MaksymHolovatyiDev/news-service
+[submodule "api-public"]
+    path = ./api-public
+    url = https://github.com/MaksymHolovatyiDev/api-public

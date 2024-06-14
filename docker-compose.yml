@@ -16,6 +16,7 @@ services:
 
   redis:
     image: redis/redis-stack-server:latest
+    restart: always
     ports:
       - '6379:6379'
 
@@ -23,7 +24,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: nest-docker-postgres
+    container_name: nest-docker-file
     environment:
       - PORT=3000
     ports:
